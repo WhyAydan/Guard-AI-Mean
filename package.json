@@ -1,0 +1,22 @@
+{
+  "name": "guard-ai-mean",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhyAydan/Guard-AI-Mean"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "author": "Aydan Abrahams <me@aydan.dev>",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  }
+}
