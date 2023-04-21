@@ -20,7 +20,7 @@ const openai = new OpenAIApi(new Configuration({
 client.on("messageCreate", async function (message) {
   if (message.author.bot) return;
 
-  if (message.channel.id === process.env.BOT_TOKEN) {
+  if (message.channel.id === process.env.DISCORD_CHANNELID) {
     try {
       const response = await openai.createChatCompletion({
           model: "gpt-4",
