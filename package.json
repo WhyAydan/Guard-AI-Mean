@@ -15,7 +15,7 @@
   "author": "Aydan Abrahams <me@aydan.dev>",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.9.0",
+    "discord.js": "^14.16.2",
     "dotenv": "^16.0.3",
     "openai": "^3.2.1"
   }
